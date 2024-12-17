@@ -1,0 +1,22 @@
+/* Light theme (default) */
+body[data-theme='light'] {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme */
+body[data-theme='dark'] {
+  background-color: #121212;
+  color: white;
+}
+
+/* Add other styles for both themes */
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
